@@ -1,0 +1,73 @@
+.keyboard{  
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 1370px;
+    height: 470px;
+    background-color: grey;
+}
+span:first-child{
+    margin-left: 20px ;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    transition: 0.4s;
+    margin-right: 20px;
+}
+.radius{
+    border-radius: 40%;
+}
+body{
+    display: grid;
+    justify-content: center;
+}
+.active{
+    background-color: rgb(255, 125, 233);
+}
+.rowZ,
+.rowCtrl,
+.rowCaps,
+.rowTab,
+.rowDigit{
+    display: flex;
+}
+span{
+    user-select: none;
+}
+.rowCtrl,
+.rowZ,
+.rowCaps,
+.rowTab,
+.rowDigit{
+    margin-top: 20px;
+}
+textarea{
+    font-size: 40px;
+}
+.shiftL{
+    text-transform: uppercase !important;
+    width: 160px;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+.space{
+    width: 610px;
+}
+.capsLock{
+    text-transform: capitalize !important;
+    width: 160px;
+}
+.del{
+    text-transform: capitalize;
+}
+span:active{
+    background-color: rgb(255, 125, 233);
+}
